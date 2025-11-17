@@ -52,6 +52,7 @@ output_buffering=0
 
 php_value upload_max_filesize 16G
 php_value post_max_size 16G
+ph_value  memory_limit=16G
 php_value max_input_time 3600
 php_value max_execution_time 3600
 EOL
