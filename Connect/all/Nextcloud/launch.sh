@@ -66,7 +66,7 @@ EOL
     php ./nextcloud/occ config:system:set redis host --value='localhost'
     php ./nextcloud/occ config:system:set redis port --value='6379' --type=integer
 
-    echo "📦 Adjusting upload chunk size to 10MB..."
+    echo "📦 Adjusting upload chunk size to 100MB..."
     php ./nextcloud/occ config:system:set --type int --value 104857600 files.chunked_upload.max_size
 
   else
